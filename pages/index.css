@@ -6,6 +6,9 @@
 /* header */
 @import url(../blocks/header/header.css);
 
+/* article */
+@import url(../blocks/article/article.css);
+
 /* main */
 @import url(../blocks/main/main.css);
 
@@ -14,6 +17,12 @@
 
 /* team */
 @import url(../blocks/team/team.css);
+
+/* cards */
+@import url(../blocks/cards/cards.css);
+
+/* card */
+@import url(../blocks/card/card.css);
 
 /* lure */
 @import url(../blocks/lure/lure.css);
