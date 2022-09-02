@@ -1,3 +1,25 @@
 .card {
     width: 320px;
 }
+
+.card__photo {
+    width: 320px;
+    height: 320px;
+    border-radius: 15px;
+}
+
+.card__name {
+    margin: 30px auto 10px 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+}
+
+.card__hobby {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
