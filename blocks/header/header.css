@@ -1,0 +1,13 @@
+.header {
+    width: calc(100%* 1120/1440);
+    margin: 0 auto;
+    padding: 26px 0;
+    display: grid;
+    grid-template-columns: 38px auto 218px;
+    gap: 50px;
+}
+
+.header__logo {
+    width: 38px;
+    height: 54px;
+}
