@@ -46,13 +46,12 @@
 }
 
 .intro__round {
-    width: calc(100% * 480/620);
+    width: 107%;
     height: 640px;
     object-fit: cover;
     position: absolute;
-    right: -25%;
+    left: 25%;
     bottom: 0;
     background-image: url(../../images/intro_round.png);
-    background-position: 0 0;
     background-repeat: no-repeat;
 }

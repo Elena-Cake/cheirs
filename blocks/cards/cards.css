@@ -1,5 +1,5 @@
 .cards {
-    min-width: calc(320px*3 + 28px*2);
+    width: 100%;
     padding: 0;
     margin: 110px 0 0 0;
     list-style-type: none;
