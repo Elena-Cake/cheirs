@@ -1,7 +1,22 @@
 .cards {
+    max-width: 1120px;
+    width: calc(100%* 1120/1440);
+    overflow: hidden;
+    margin: 110px auto 0;
+}
+
+@media screen and (max-width: 1310px) {
+    .cards {
+        width: calc(100% - 11%);
+        margin: 110px 0 0 11%;
+    }
+}
+
+.cards__galery {
+    min-width: calc(320px*3 + 28px*2);
     width: 100%;
+    margin: 0;
     padding: 0;
-    margin: 110px 0 0 0;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(3, 320px);
