@@ -1,0 +1,6 @@
+.footer__logo {
+    margin: 0 auto;
+    width: 38px;
+    height: 54px;
+    background-image: url(../../../images/heder_logo.svg);
+}

@@ -1,0 +1,6 @@
+.intro__desk {
+    grid-area: desk;
+    width: 416px;
+    height: 104px;
+    margin: 112px auto 0 0;
+}

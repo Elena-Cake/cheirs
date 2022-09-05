@@ -1,0 +1,7 @@
+.lure__container {
+    display: grid;
+    grid-template-columns: auto 520px;
+    grid-template-rows: 440px;
+    position: relative;
+    grid-template-areas: 'fon article';
+}

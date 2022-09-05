@@ -1,0 +1,5 @@
+.intro__fon {
+    width: 100%;
+    grid-area: fon;
+    position: relative;
+}

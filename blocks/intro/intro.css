@@ -13,45 +13,8 @@
     'desk fon';
 }
 
-.intro__club {
-    width: 84px;
-    height: 50px;
-    grid-area: club;
-    background: #5036E6;
-    text-transform: uppercase;
-    border-radius: 0 50px 50px 0;
-    position: relative;
-}
 
-.intro__clubText {
-    position: absolute;
-    top: 8%;
-    left: 25%;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 90%;
-}
 
-.intro__desk {
-    grid-area: desk;
-    width: 416px;
-    height: 104px;
-    margin: 112px auto 0 0;
-}
 
-.intro__fon {
-    width: 100%;
-    grid-area: fon;
-    position: relative;
-}
 
-.intro__round {
-    width: 107%;
-    height: 640px;
-    object-fit: cover;
-    position: absolute;
-    left: 25%;
-    bottom: 0;
-    background-image: url(../../images/intro_round.png);
-    background-repeat: no-repeat;
-}
+

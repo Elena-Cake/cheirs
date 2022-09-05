@@ -1,0 +1,10 @@
+.intro__round {
+    width: 107%;
+    height: 640px;
+    object-fit: cover;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    background-image: url(../../../images/intro_round.png);
+    background-repeat: no-repeat;
+}

@@ -3,26 +3,3 @@
         background-color: #5036E6;
         padding: 0 0 80px;
 }
-
-.lure__container {
-    display: grid;
-    grid-template-columns: auto 520px;
-    grid-template-rows: 440px;
-    position: relative;
-    grid-template-areas: 'fon article';
-}
-
-.lure__fon {
-    grid-area: fon;
-    width: 160%;
-    height: 440px;
-    background-image: url(../../images/lure_round.png);
-    position: absolute;
-    right: 25%;
-    background-repeat: no-repeat;
-    background-position: 100% 0;
-}
-
-.lure__article {
-    margin: auto 0;
-}

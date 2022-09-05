@@ -1,0 +1,12 @@
+.btnRegister {
+    color: #FFFFFF;
+    background: #009465;
+    border-radius: 8px;
+    border: 0;
+    transition: background-color 1s ease ;
+    cursor: pointer;
+}
+
+.btnRegister:hover {
+    background-color: #066C4C;
+}

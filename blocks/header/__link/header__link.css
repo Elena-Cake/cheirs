@@ -1,0 +1,11 @@
+.header__link {
+    width: 152px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    display: flex;
+    justify-content: space-between;
+}

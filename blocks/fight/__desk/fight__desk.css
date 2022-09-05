@@ -1,0 +1,7 @@
+.fight__desk {
+    grid-area: desk;
+    width: 100%;
+    height: 104px;
+    background-image: url(../../../images/fight_desk.jpg);
+    background-repeat: no-repeat;
+}

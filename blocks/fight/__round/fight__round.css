@@ -1,0 +1,9 @@
+.fight__round {
+    grid-area: round;
+    width: 100%;
+    height: 220px;
+    background-image: url(../../../images/fight_round.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 8%;
+}

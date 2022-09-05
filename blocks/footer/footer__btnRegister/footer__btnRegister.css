@@ -1,0 +1,9 @@
+.footer__btnRegister {
+    margin: 60px auto;
+    width: 218px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+}

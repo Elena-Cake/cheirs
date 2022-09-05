@@ -1,0 +1,10 @@
+.lure__fon {
+    grid-area: fon;
+    width: 160%;
+    height: 440px;
+    background-image: url(../../../images/lure_round.png);
+    position: absolute;
+    right: 25%;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
