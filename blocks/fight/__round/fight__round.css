@@ -1,6 +1,6 @@
 .fight__round {
     grid-area: round;
-    width: 100%;
+    width: 440px;
     height: 220px;
     background-image: url(../../../images/fight_round.png);
     background-repeat: no-repeat;
