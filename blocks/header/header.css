@@ -40,14 +40,17 @@
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 0.01em;
+}
+
+.btnRegister {
     color: #FFFFFF;
     background: #009465;
     border-radius: 8px;
     border: 0;
-    transition: background 1s ease ;
+    transition: background-color 1s ease ;
     cursor: pointer;
 }
 
-.header__btnRegister:hover {
-    background: #066C4C;
+.btnRegister:hover {
+    background-color: #066C4C;
 }

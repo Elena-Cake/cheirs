@@ -16,14 +16,10 @@
     background-image: url(../../images/heder_logo.svg);
 }
 
-.footer__btnRegistrate {
+.footer__btnRegister {
     margin: 60px auto;
     width: 218px;
     height: 48px;
-    background-color: #009465;
-    border: 0;
-    border-radius: 8px;
-    color: #fff;
     font-weight: 600;
     font-size: 15px;
     line-height: 1.2;
