@@ -8,3 +8,13 @@
     background-image: url(../../../images/intro_round.png);
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width:768px) {
+    .intro__round {
+        height: 60px;
+        background-size: 120px 60px;
+        background-image: url(../../../images/intro_round_320.png);
+        width: 100%;
+        left: 0;
+    }
+}

@@ -4,3 +4,10 @@
     height: 104px;
     margin: 112px auto 0 0;
 }
+
+@media screen and (max-width:768px) {
+    .intro__desk {
+        max-width: 94%;
+        margin: 0 auto;
+    }
+}

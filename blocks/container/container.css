@@ -3,3 +3,10 @@
     width: calc(100% * 1120/1440);
     margin: 0 auto;
 }
+
+@media screen and (max-width:1080px) {
+    .intro {
+        width: 88%;
+        margin: 0 6%;
+    }
+}

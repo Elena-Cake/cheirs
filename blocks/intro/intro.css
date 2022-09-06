@@ -13,6 +13,27 @@
     'desk fon';
 }
 
+@media screen and (max-width:1080px) {
+    .intro {
+        width: 94%;
+        margin-left: 6%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .intro {
+        width: 88%;
+        margin: 0 6%;
+        grid-template-rows: 60px auto auto;
+        grid-template-columns: auto 120px;
+        grid-row-gap: 60px;
+        grid-template-areas: 
+    'club fon'
+    'article article'
+    'desk desk';
+    }
+}
 
 
 
