@@ -4,3 +4,9 @@
     font-size: 20px;
     line-height: 130%;
 }
+
+@media screen and (max-width: 768px) {
+    .card__hobby {
+        font-size: 12px;
+    }
+}

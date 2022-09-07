@@ -5,3 +5,14 @@
     position: relative;
     grid-template-areas: 'fon article';
 }
+
+@media screen and (max-width: 768px) {
+    .lure__container {
+        grid-template-columns: auto;
+        grid-template-rows: auto 140px;
+        gap: 60px;
+        grid-template-areas: 
+        'article'
+        'fon';
+    }
+}

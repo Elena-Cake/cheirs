@@ -10,3 +10,11 @@
     position: relative;
     grid-template-areas: 'round desk';
 }
+
+@media screen and (max-width:768px) {
+    .fight__fon {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 'desk';
+    }
+}

@@ -3,3 +3,10 @@
     height: 320px;
     border-radius: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    .card__photo {
+        width: 280px;
+        height: 280px;
+    }
+}

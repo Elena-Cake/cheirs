@@ -8,3 +8,13 @@
     background-repeat: no-repeat;
     background-position: 100% 0;
 }
+
+@media screen and (max-width: 768px) {
+    .lure__fon {
+        background-image: url(../../../images/lure_round_768.png);
+        width: 280px;
+        right: 0;
+        position: relative;
+        margin: 0 auto;
+    }
+}

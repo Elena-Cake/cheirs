@@ -6,3 +6,10 @@
     letter-spacing: 0.055em;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+    .card__name {
+        font-size: 18px;
+    }
+
+}

@@ -8,3 +8,9 @@
     grid-template-columns: repeat(3, 320px);
     gap: calc((100% - (320px * 3))/2);
 }
+
+@media screen and (max-width: 768px) {
+    .cards__galery {
+        grid-template-columns: repeat(3, 280px);
+    }
+}

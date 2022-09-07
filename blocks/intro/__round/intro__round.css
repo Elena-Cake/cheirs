@@ -1,7 +1,7 @@
 .intro__round {
     width: 107%;
     height: 640px;
-    object-fit: cover;
+    object-fit: contain;
     position: absolute;
     left: 25%;
     bottom: 0;
@@ -11,10 +11,11 @@
 
 @media screen and (max-width:768px) {
     .intro__round {
-        height: 60px;
-        background-size: 120px 60px;
-        background-image: url(../../../images/intro_round_320.png);
-        width: 100%;
+        height: 120px;
+        background-size: 60px 120px;
+        transform: rotate(-90deg);
+        background-image: url(../../../images/intro_round_768.png);
         left: 0;
+        width: 80%;
     }
 }
