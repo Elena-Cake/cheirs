@@ -1,8 +1,7 @@
 .fight__fon {
     max-width: 1120px;
     width: calc(100% * 1120/1440);
-    margin: 0 auto;
-    margin-top: 74px;
+    margin: 74px auto 0;
     display: grid;
     grid-template-columns: auto 416px;
     grid-template-rows: 220px;
@@ -14,9 +13,14 @@
 @media screen and (max-width:768px) {
     .fight__fon {
         width: 100%;
-        margin: 0;
         grid-template-columns: auto;
         grid-template-rows: auto;
         grid-template-areas: 'desk';
+    }
+}
+
+@media screen and (max-width:320px) {
+    .fight__fon {
+        margin: 0;
     }
 }
