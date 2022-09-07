@@ -5,3 +5,10 @@
     line-height: 20px;
     color: #8E9199;
 }
+
+@media screen and (max-width:480px) {
+    .footer__author {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}

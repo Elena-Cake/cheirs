@@ -1,4 +1,6 @@
 .btnRegister {
+    width: 218px;
+    height: 48px;
     color: #FFFFFF;
     background: #009465;
     border-radius: 8px;
@@ -9,4 +11,12 @@
 
 .btnRegister:hover {
     background-color: #066C4C;
+}
+
+@media screen and (max-width:480px) {
+    .btnRegister {
+        width: 140px;
+        height: 30px;
+        font-size: 10px;
+    }
 }

@@ -9,5 +9,7 @@
 @media screen and (max-width:768px) {
     .fight__desk {
         background-position: center;
+        background-size: 280px 70px;
+        height: 70px;
     }
 }
