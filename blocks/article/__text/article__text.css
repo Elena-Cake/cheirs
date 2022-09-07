@@ -13,3 +13,9 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .article__text {
+        font-size: 12px;
+    }
+}

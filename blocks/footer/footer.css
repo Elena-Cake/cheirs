@@ -4,3 +4,9 @@
     background-color: #5036E6;
     margin: 0 auto;
 }
+
+@media screen and (max-width:480px) {
+    .footer {
+        padding: 40px 0;
+    }
+}

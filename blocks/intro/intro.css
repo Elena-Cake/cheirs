@@ -26,7 +26,7 @@
         width: 88%;
         margin: 0 6%;
         grid-template-rows: 60px auto auto;
-        grid-template-columns: auto 30%;
+        grid-template-columns: auto 120px;
         grid-row-gap: 60px;
         grid-template-areas: 
     'club fon'
@@ -34,7 +34,6 @@
     'desk desk';
     }
 }
-
 
 
 

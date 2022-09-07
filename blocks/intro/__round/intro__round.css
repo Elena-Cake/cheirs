@@ -1,4 +1,5 @@
 .intro__round {
+    margin: 0;
     width: 107%;
     height: 640px;
     object-fit: contain;
@@ -15,7 +16,7 @@
         background-size: 60px 120px;
         transform: rotate(-90deg);
         background-image: url(../../../images/intro_round_768.png);
-        left: 0;
-        width: 80%;
+        width: 60px;
+        position: relative;
     }
 }

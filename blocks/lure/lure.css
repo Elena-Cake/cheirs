@@ -8,4 +8,10 @@
         .lure {
                 padding: 0;
         }
-    }
+}
+
+@media screen and (max-width: 480px) {
+        .lure {
+                padding: 20px 0 0 0;
+        }
+}

@@ -3,3 +3,9 @@
     background-color: #5036E6;
     padding: 80px 0;
 }
+
+@media screen and (max-width:480px) {
+    .team {
+        padding: 20px 0 40px;
+    }
+}

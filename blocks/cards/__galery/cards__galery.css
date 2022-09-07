@@ -12,5 +12,13 @@
 @media screen and (max-width: 768px) {
     .cards__galery {
         grid-template-columns: repeat(3, 280px);
+        min-width: calc(280px*3 + 28px*2);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cards__galery {
+        grid-template-columns: 280px;
+        min-width: none;
     }
 }

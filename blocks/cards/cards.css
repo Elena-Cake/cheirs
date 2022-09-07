@@ -11,3 +11,10 @@
         margin: 110px 0 0 11%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .cards {
+        width: 88%;
+        margin: 60px auto 30px;
+    }
+}

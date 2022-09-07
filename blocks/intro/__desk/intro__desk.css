@@ -11,3 +11,10 @@
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width:480px) {
+    .intro__desk {
+        width: 280px;
+        height: 70px;
+    }
+}
