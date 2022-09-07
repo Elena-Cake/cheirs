@@ -1,0 +1,14 @@
+.cards__dots {
+    list-style: none;
+    padding: 0;
+    width: 44px;
+    justify-content: space-between;
+    margin: 30px auto 0;
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+    .cards__dots{
+        display: flex;
+    }
+}

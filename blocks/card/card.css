@@ -7,3 +7,14 @@
         width: 280px;
     }
 }
+
+@media screen and (max-width: 480px){
+    .card {
+      display: none;
+      margin: 0 auto;
+    }
+  
+    .card:first-child {
+      display: block;
+    }
+  }

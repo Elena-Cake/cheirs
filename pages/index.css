@@ -38,6 +38,9 @@
 /* cards */
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__galery/cards__galery.css);
+@import url(../blocks/cards/__dots/cards__dots.css);
+@import url(../blocks/cards/__dot/cards__dot.css);
+@import url(../blocks/cards/__dot/_active/cards__dot_active.css);
 
 /* card */
 @import url(../blocks/card/card.css);
